@@ -5,7 +5,12 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json"
+  },
+  "homepage": "https://github.com/mikolodziejczyk/AgGridLocale",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikolodziejczyk/AgGridLocale.git"
   },
   "author": "",
   "license": "ISC"
