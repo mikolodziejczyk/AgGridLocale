@@ -1,0 +1,12 @@
+{
+  "name": "aggridlocale",
+  "version": "1.0.0",
+  "description": "Localization resources for ag-grid.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
