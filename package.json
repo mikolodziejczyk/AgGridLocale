@@ -1,6 +1,6 @@
 {
   "name": "aggridlocale",
-  "version": "27.0.3",
+  "version": "27.0.4",
   "description": "Localization resources for ag-grid.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
