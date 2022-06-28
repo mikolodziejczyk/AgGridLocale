@@ -1,12 +1,12 @@
 {
   "name": "aggridlocale",
-  "version": "27.0.4",
+  "version": "27.0.3",
   "description": "Localization resources for ag-grid.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "publish": "npm version patch && tsc -p tsconfig.json && npm publish --registry http://verdaccio:4873/ --force --access restricted"
+    "publishVerdaccio": "npm version patch && tsc -p tsconfig.json && npm publish --registry http://verdaccio:4873/ --force"
   },
   "homepage": "https://github.com/mikolodziejczyk/AgGridLocale",
   "repository": {
