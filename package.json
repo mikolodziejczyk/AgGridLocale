@@ -6,7 +6,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "publish": "tsc -p tsconfig.json && npm publish --registry http://verdaccio:4873/"
+    "publish": "npm version patch && tsc -p tsconfig.json && npm publish --registry http://verdaccio:4873/ --force --access restricted"
   },
   "homepage": "https://github.com/mikolodziejczyk/AgGridLocale",
   "repository": {
